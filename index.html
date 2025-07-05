@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yash Dehariya - Web Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h2>Yash Dehariya</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hello, I'm   Yash Dehariya</h1>
+            <p class="hero-description">A passionate Web Developer specializing in HTML, CSS, and JavaScript</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="profile-placeholder">
+                <i class="fas fa-user"></i>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a dedicated web developer with a passion for creating beautiful, functional, and user-friendly websites. Currently completing my internship at ApexPlanet Software, I specialize in front-end development using HTML, CSS, and JavaScript.</p>
+                    <p>My journey in web development started with curiosity about how websites work, and has evolved into a love for creating digital experiences that make a difference. I enjoy solving complex problems and turning ideas into reality through code.</p>
+                    
+                    <div class="skills">
+                        <h3>Skills</h3>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <span class="skill-name">HTML5</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-skill="90"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">CSS3</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-skill="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">JavaScript</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-skill="80"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Responsive Design</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-skill="88"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="project-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="html-css">HTML/CSS</button>
+                <button class="filter-btn" data-filter="javascript">JavaScript</button>
+                <button class="filter-btn" data-filter="responsive">Responsive</button>
+            </div>
+            
+            <div class="project-grid">
+                <div class="project-card" data-category="html-css responsive">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-code"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Responsive Landing Page</h3>
+                        <p>A modern, responsive landing page built with HTML5 and CSS3, featuring smooth animations and mobile-first design.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">Responsive</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Live Demo</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="javascript">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-tasks"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Todo List App</h3>
+                        <p>Interactive todo list with local storage, featuring add, edit, delete, and filter functionality.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Local Storage</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Live Demo</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="javascript responsive">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-question-circle"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Interactive Quiz App</h3>
+                        <p>Engaging quiz application with multiple choice questions, score tracking, and responsive design.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">DOM Manipulation</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Live Demo</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="javascript">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-cloud-sun"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Weather App</h3>
+                        <p>Real-time weather application that fetches data from external API and displays current weather conditions.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">API Integration</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Live Demo</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always open to discussing new opportunities, creative projects, or just having a friendly conversation about web development.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>yashdehariya45@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 8442081314</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Madhya Pradesh, India</span>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Yash Dehariya. All rights reserved. Built with ❤️ for ApexPlanet Internship</p>
+        </div>
+    </footer>
+
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
